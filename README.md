@@ -12,6 +12,8 @@ The repository currently only provides the design for this single size holder, *
 Using flat head screws provides the most compact model using default settings (12.7 x 8.5 x 6.7 mm). The round and cylindrical (socket head) types produce slightly larger models.
 
 ## Printing Information
+STL files for both the default flat-head screw option (**cable_tie_holder_m3_flathead_3x2mm.stl**) as well as the round head screw type (**cable_tie_holder_m3_roundhead_3x2mm.stl**) are included in this repository. You can use these files directly, by importing into your slicer or 3D printer software of choice. However, you can also generate a model directly (and perform any desired customization) by opening the design file in OpenSCAD.
+
 The design file includes some utility modules which I used for visualization during the creation of the cable-tie holder. Specifically, there are **simple_zip_tie()** and **generic_screw_model()** modules. Display of these objects can be turned on/off using the variables near the top of the file (set to `true`/`false` accordingly):
 ```openscad
 display_zip_tie = false;
