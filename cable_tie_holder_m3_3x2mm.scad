@@ -184,7 +184,7 @@ module simple_zip_tie() {
 //                  the bottom of "rounded" head types (panel, button, etc.), per convention.
 //      head_height: The height of rounded heads, or the inset depth of the flat head type.
 //      length:     Length of screw, from the bottom of the screw to either the
-//                  a) bottom of "rounded" head types, or
+//                  a) bottom of "round" and "cylinder" head types, or
 //                  b) top of "flat" head screws
 //
 ///////////////////////////////////////////////////////////////////////////////////////
